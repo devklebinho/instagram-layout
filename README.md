@@ -8,3 +8,6 @@ Neste projeto fiz uma página de login do instagram seguindo as orientações da
 2- Ajustei as imagens através do CSS conforme a necessidade;
 3- Os tamanhos de responsividade foram definidos por mim;
 4- Adicionei responsividade para tela de celular "deitado".
+
+*OBS:
+Aproveitei para praticar minhas habilidades recém adquiridas com Git e Github usando o terminal Git Bash para subir o projeto e fazer as atualizações para o repositório remoto.
