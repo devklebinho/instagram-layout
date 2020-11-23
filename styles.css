@@ -51,7 +51,7 @@ body{
     justify-content: space-between;
     flex-direction: column;
     background-color: #ffffff;
-    width: 100%;
+    width: 90%;
     padding: 1.3rem 0;
     border: 1px solid lightgrey;
 }
@@ -74,8 +74,8 @@ body{
 }
 
 .profile-photo img{
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
 }
 
 .login{
@@ -129,4 +129,35 @@ body{
 
 .app-download:nth-child(2){
     background-image: url(./assets/Google\ Play\ button.PNG);
+}
+
+/*Responsividade************************************************/
+@media(max-width: 1200px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+}
+
+@media(max-width: 800px){
+    .instagram-wrapper{
+        width: 90%;
+    }
+    
+    .instagram-phone{
+        display: none;
+    }
+
+    .instagram-login{
+        width: 100%;
+    }
+
+    .group{
+        border: 1px solid transparent;
+    }
+}
+
+@media(max-height:360px){
+    .instagram-wrapper{
+        height: 80%;
+    }
 }
